@@ -86,12 +86,14 @@ Prev-temp-IA/
 
 1. **Treinamento dos Modelos**:
    ```bash
-   python src/algoritimosRegressao.py
+   cd models
+   python algoritimosRegressao.py
    ```
 
 2. **Dashboard Interativo**:
    ```bash
-   streamlit run src/dashboard.py
+   cd src
+   streamlit run app.py
    ```
 
 ## 📈 Resultados Esperados
