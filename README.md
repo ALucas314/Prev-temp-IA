@@ -1,6 +1,5 @@
 # 🌡️ ClimateVision - Previsão de Temperatura com IA
 
-![Banner](https://github.com/ALucas314/Prev-temp-IA/blob/main/assets/banner.png?raw=true)
 
 ## 📌 Visão Geral
 
