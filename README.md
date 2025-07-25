@@ -19,11 +19,10 @@ O **ClimateVision** é um sistema avançado de previsão de temperatura horária
 
 ## 🧠 Modelos Implementados
 
-| Modelo | RMSE (°C) | MAE (°C) | R² | Tempo de Treinamento |
-|--------|-----------|----------|----|----------------------|
-| Regressão Linear | 0.12 | 0.08 | 0.997 | ~1s |
-| Random Forest | 0.10 | 0.07 | 0.998 | ~30s |
-| SVR | 0.15 | 0.11 | 0.995 | ~1min |
+
+| Regressão Linear 
+| Random Forest
+| SVR 
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -43,13 +42,14 @@ Prev-temp-IA/
 ├── data/                    # Dados meteorológicos
 │   └── Belem.csv            # Dataset histórico do INMET
 ├── models/                  # Modelos treinados
+│   ├── algoritimosRegressao.py # Script principal de ML
 │   ├── modelo_random_forest.pkl
 │   ├── modelo_regressao_linear.pkl
 │   └── modelo_svr.pkl
 ├── assets/                  # Imagens e recursos visuais
 ├── src/                     # Código fonte
-│   ├── algoritimosRegressao.py  # Script principal de ML
-│   └── dashboard.py         # Aplicativo Streamlit
+│   ├── style.css  # Estilo
+│   └── app.py         # Aplicativo Streamlit
 ├── requirements.txt         # Dependências do projeto
 ├── LICENSE
 └── README.md
@@ -96,7 +96,6 @@ Prev-temp-IA/
 
 ## 📈 Resultados Esperados
 
-![Resultados](https://github.com/ALucas314/Prev-temp-IA/blob/main/assets/results.png?raw=true)
 
 Os modelos alcançam excelente desempenho com:
 - **Precisão superior a 99.7%** (R² > 0.997)
@@ -127,8 +126,8 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ## 👥 Autores
 
-- **Antônio Lucas Costa Araújo** - [GitHub](https://github.com/ALucas314)
-- **Evandro José da Silva Mariano**
+- **Antônio Lucas Costa Araújo** 
+- **Evandro José da Silva Mariano** 
 - **Iago Oliveira de Sousa**
 
 ## 🤝 Como Contribuir
@@ -202,3 +201,4 @@ plt.show()
 ```
 
 Este gráfico (que pode ser incluído no dashboard) mostra claramente a superioridade do Random Forest em todas as métricas avaliadas.
+
