@@ -122,10 +122,6 @@ modelos = [
 ]
 ```
 
-## 📝 Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ## 👥 Autores
 
 - **Antônio Lucas Costa Araújo** 
