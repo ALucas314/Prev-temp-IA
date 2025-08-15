@@ -159,7 +159,7 @@ modelos = [
 
 ## 👥 Autores
 
-* **Antônio Lucas Costa Araújo** - antoniolucas9028@gmail.com
+* **Antônio Lucas Costa Araújo** - antoniolucas9014@gmail.com
 * **Evandro José da Silva Mariano** - evandromariano49@gmail.com
 * **Iago Oliveira de Sousa** - iago.sousa@castanhal.ufpa.br
 
