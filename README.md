@@ -35,20 +35,6 @@ Este projeto implementa um sistema avançado de previsão de temperatura horári
 * **Matplotlib/Seaborn** - Visualizações
 * **Pickle** - Serialização de modelos
 
-## 📊 Estrutura do Projeto
-
-```
-Prev-temp-IA/
-├── data/                           # Dados meteorológicos
-│   └── Belem.csv                  # Dataset histórico do INMET
-├── models/                         # Modelos treinados
-│   ├── modelo_random_forest.pkl   # Modelo Random Forest
-│   ├── modelo_regressão_linear.pkl # Modelo Regressão Linear
-│   └── modelo_svr.pkl             # Modelo SVR
-├── algoritimos_regressao_notebook.ipynb # Notebook principal
-└── README.md                      # Este arquivo
-```
-
 ## 🚀 Como Executar
 
 ### Pré-requisitos
