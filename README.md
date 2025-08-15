@@ -6,6 +6,8 @@ Este projeto implementa um sistema avançado de previsão de temperatura horári
 
 **Versão COLAB**: Esta é a versão otimizada para execução no Google Colab, com todos os modelos pré-treinados e funcionalidades completas.
 
+**Link para o COLAB** https://colab.research.google.com/drive/1hUGLWRgSp0vrtfgGAhG3ztvL4nZId9Zp#scrollTo=9WyjDCkPscwz
+
 ## ✨ Funcionalidades Principais
 
 * **Previsão horária precisa** com múltiplos algoritmos de ML
